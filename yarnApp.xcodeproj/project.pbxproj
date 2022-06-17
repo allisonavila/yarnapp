@@ -13,6 +13,8 @@
 		855EFD5A285BF0DC00611E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855EFD58285BF0DC00611E8C /* Main.storyboard */; };
 		855EFD5C285BF0DE00611E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855EFD5B285BF0DE00611E8C /* Assets.xcassets */; };
 		855EFD5F285BF0DE00611E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855EFD5D285BF0DE00611E8C /* LaunchScreen.storyboard */; };
+		855EFD67285BFEEB00611E8C /* feature-yarnapp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855EFD66285BFEEB00611E8C /* feature-yarnapp.storyboard */; };
+		855EFD69285BFFA500611E8C /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855EFD68285BFFA500611E8C /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		855EFD5B285BF0DE00611E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		855EFD5E285BF0DE00611E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		855EFD60285BF0DE00611E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855EFD66285BFEEB00611E8C /* feature-yarnapp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "feature-yarnapp.storyboard"; sourceTree = "<group>"; };
+		855EFD68285BFFA500611E8C /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				855EFD5B285BF0DE00611E8C /* Assets.xcassets */,
 				855EFD5D285BF0DE00611E8C /* LaunchScreen.storyboard */,
 				855EFD60285BF0DE00611E8C /* Info.plist */,
+				855EFD66285BFEEB00611E8C /* feature-yarnapp.storyboard */,
+				855EFD68285BFFA500611E8C /* ModalViewController.swift */,
 			);
 			path = yarnApp;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				855EFD5F285BF0DE00611E8C /* LaunchScreen.storyboard in Resources */,
+				855EFD67285BFEEB00611E8C /* feature-yarnapp.storyboard in Resources */,
 				855EFD5C285BF0DE00611E8C /* Assets.xcassets in Resources */,
 				855EFD5A285BF0DC00611E8C /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855EFD69285BFFA500611E8C /* ModalViewController.swift in Sources */,
 				855EFD57285BF0DC00611E8C /* ViewController.swift in Sources */,
 				855EFD53285BF0DC00611E8C /* AppDelegate.swift in Sources */,
 				855EFD55285BF0DC00611E8C /* SceneDelegate.swift in Sources */,
